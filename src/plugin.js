@@ -143,7 +143,7 @@ function handleClickEvents(chart, event) {
 }
 
 export default {
-  id: 'datalabels',
+  id: 'datalabels-ib',
 
   defaults: defaults,
 

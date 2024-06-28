@@ -336,9 +336,9 @@ merge(Label.prototype, {
       ctx.beginPath();
       ctx.rect(
         area.left,
-        area.top,
+        0,
         area.right - area.left,
-        area.bottom - area.top);
+        chart.height);
       ctx.clip();
     }
 
